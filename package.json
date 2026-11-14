@@ -2,12 +2,16 @@
   "name": "typescript-tp-4",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "npx tsx watch app.ts",
-    "build": "npx tsx watch src/numer.ts",
-    "start": "npx tsc"
-  },
+  "main": "dist/app.js", 
+"scripts": {
+  "3": "tsx watch src/tema3-tipos.ts",
+  "4": "tsx watch src/tema04-funciones.ts",
+  "5": "tsx watch src/tema05-interfaces-types.ts",
+  "6": "tsx watch src/tema06-enumeraciones-tipos-literales.ts",
+  "check": "tsc --noEmit",
+  "build": "tsc",
+  "start": "node --enable-source-maps dist/app.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
